@@ -1,0 +1,80 @@
+
+网易 
+博客 
+发现
+小组
+风格
+手机博客
+ 
+下载最文艺的手机博客APP>
+创建博客 登录  
+ 加关注
+天空
+
+我的归属----------icekwok
+
+    首页
+    日志
+    相册
+    关于我
+
+ 
+ 
+ 
+ 
+ 
+日志
+ 
+ 
+ 
+[置顶] 提交代码到github托管
+ 
+使用GitHub进行版本管理
+fatal:could not read Username for 'https://github.com':No such file or directory  
+
+2014-02-12 17:25:21|  分类： Github |举报 |字号 订阅
+Repro :
+$git remote add origin https://github.com/haitaodou/test-project.git
+$git remote -v
+$git push
+
+Error message:
+fatal: could not read Username for 'https://github.com': No such file or directory
+
+Details in photo below ->
+[Bug] Git can not push to Github server. - Haitao - alva的博客
+ 
+Solution :
+git remote add origin https://{username}:{password}@github.com/{username}/project.git
+
+in my case ->
+$git remote add origin https://haitao-dou:mypassword@github.com/haitaodou/test-project.git
+阅读(35)| 评论(0)
+|      
+喜欢 推荐 转载
+ 
+[置顶] 提交代码到github托管
+ 
+使用GitHub进行版本管理
+最近读者
+登录后，您可以在此留下足迹。
+雪山飞鹄
+雪山飞鹄
+wuleihenbang@126
+wuleihen
+Caesar
+Caesar
+snakeppo
+snakeppo
+评论
+点击登录|昵称：
+ 
+ 
+ 
+ 
+ 
+公司简介 - 联系方法 - 招聘信息 - 客户服务 - 隐私政策 - 博客风格 - 手机博客 - VIP博客 - 订阅此博客
+
+网易公司版权所有 ?1997-2014
+
+精选 来自：StanleyChen
